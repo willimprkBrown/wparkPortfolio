@@ -1,21 +1,38 @@
-import logo from './logo.svg';
+import React, { useState, useEffect }  from 'react';
 import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import { NavBar } from "./components/NavBar";
-import { Banner } from "./components/Banner";
-import { Skills } from "./components/Skills";
-import { Projects } from "./components/Projects";
-import { Footer } from "./components/Footer";
+import Sidebar from "./components/Sidebar/Sidebar";
+import Home from "./components/Home/Home";
+import Resume from "./components/Resume/Resume";
+import Portfolio from "./components/Portfolio/Portfolio";
+import About from "./components/About/About";
+import Contact from "./components/Contact/Contact";
+import Loader from './components/Loader/Loader';
+import Footer from './components/Footer/Footer';
 
 function App() {
+  const [isLoading, setIsLoading] = useState(true);
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setIsLoading(false);
+    }, 1700);
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
-    <div className="App">
-      <NavBar />
-      <Banner />
-      <Projects />
-      <Skills />
-      <Footer />
-    </div>
+    <>
+      <Loader isVisible={isLoading} />
+      <div className={!isLoading ? "content visible" : "content"}>
+        <Sidebar />
+        <main className="main">
+          <Home />
+          <About />
+          <Resume />
+          <Portfolio />
+          <Contact />
+          <Footer />
+        </main>
+      </div>
+    </>
   );
 }
 

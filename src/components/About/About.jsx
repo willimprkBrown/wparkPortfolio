@@ -1,6 +1,7 @@
 import React from 'react'
 import './About.css'
 import Image from '../../assets/avatar-2.svg'
+import ResumeDoc from '../../assets/William Park CV.pdf'
 
 const About = () => {
   return (
@@ -22,7 +23,12 @@ const About = () => {
             </p>
           </div>
 
-          <a href="" className="btn align__right">
+          <a
+            href={ResumeDoc}
+            download="William Park CV"
+            className="btn align__right"
+            target="_blank"
+          >
             Download CV
           </a>
         </div>

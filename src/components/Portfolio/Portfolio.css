@@ -11,7 +11,7 @@
 }
 
 .work__mask {
-  background-color: #6c6ce5;
+  background-color: var(--title-color);
   position: absolute;
   left: 0;
   top: 0;
@@ -27,7 +27,7 @@
 
 .work__tech {
   color: #fff;
-  background-color: var(--first-color);
+  background-color: #5d75de;
   border-bottom-left-radius: 0.98rem;
   border-bottom-right-radius: 0.98rem;
   position: absolute;
@@ -53,13 +53,12 @@
 }
 
 .work__button {
-  color: #fff;
+  color: #fafbfc;
   position: absolute;
   bottom: 1.5rem;
   left: 1.5rem;
   font-size: var(--h3-font-size);
-  display: block;
-  background-color: #ffd15c;
+  display: flex;
   height: 40px;
   width: 40px;
   cursor: pointer;
@@ -68,6 +67,10 @@
   line-height: 42px;
   transition: 0.3s;
   opacity: 0;
+}
+
+.github__img {
+  margin: 0.7rem 0 0 0.5rem;
 }
 
 .work__card:hover .work__button {

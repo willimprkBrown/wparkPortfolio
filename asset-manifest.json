@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/wparkPortfolio/static/css/main.ab69e515.css",
+    "main.js": "/wparkPortfolio/static/js/main.88488969.js",
+    "static/js/787.fb771931.chunk.js": "/wparkPortfolio/static/js/787.fb771931.chunk.js",
+    "static/media/MoodMap.PNG": "/wparkPortfolio/static/media/MoodMap.c0eda1b5d209459ac3d6.PNG",
+    "static/media/William Park CV.pdf": "/wparkPortfolio/static/media/William Park CV.7bea88e19967410026df.pdf",
+    "static/media/Island Hopper.png": "/wparkPortfolio/static/media/Island Hopper.910d5aeadc23f8d6757b.png",
+    "static/media/work-4.svg": "/wparkPortfolio/static/media/work-4.58bc4add25b4ccc6b7a8a58c92d45898.svg",
+    "static/media/work-3.svg": "/wparkPortfolio/static/media/work-3.78ab5df87d7f465189c2e19badff2843.svg",
+    "static/media/work-6.svg": "/wparkPortfolio/static/media/work-6.d0903f5f20dcf5eff26c4f1abeb02344.svg",
+    "static/media/work-5.svg": "/wparkPortfolio/static/media/work-5.4750a3abd9f5b65e60b80499061a419c.svg",
+    "static/media/avatar-2.svg": "/wparkPortfolio/static/media/avatar-2.1fe7c9736c13626f6edce2c02d1c645c.svg",
+    "static/media/avatar-1.svg": "/wparkPortfolio/static/media/avatar-1.9bd61775d357853cd5137125cb6ed013.svg",
+    "static/media/logo.svg": "/wparkPortfolio/static/media/logo.672cc12bab1c2dc6f54b881733989293.svg",
+    "static/media/dots-bg.svg": "/wparkPortfolio/static/media/dots-bg.f9af2a6a4e3508808a05.svg",
+    "index.html": "/wparkPortfolio/index.html",
+    "main.ab69e515.css.map": "/wparkPortfolio/static/css/main.ab69e515.css.map",
+    "main.88488969.js.map": "/wparkPortfolio/static/js/main.88488969.js.map",
+    "787.fb771931.chunk.js.map": "/wparkPortfolio/static/js/787.fb771931.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ab69e515.css",
+    "static/js/main.88488969.js"
+  ]
+}

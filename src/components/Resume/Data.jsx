@@ -16,6 +16,8 @@ const Data = [
           <li className="li__bullet">Computer Systems</li>
           <li className="li__bullet">Artificial Intelligence</li>
           <li className="li__bullet">Computer Graphics</li>
+          <li className="li__bullet">Deep Learning</li>
+          <li className="li__bullet">Computer Vision</li>
           <li className="li__bullet">Linear Algebra</li>
         </ul>
       </>

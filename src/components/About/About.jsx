@@ -28,6 +28,7 @@ const About = () => {
             download="William Park CV"
             className="btn align__right"
             target="_blank"
+            rel="noreferrer"
           >
             Download CV
           </a>

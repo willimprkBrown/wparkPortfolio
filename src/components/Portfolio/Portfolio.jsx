@@ -20,7 +20,12 @@ const Portfolio = () => {
 
               <span className="work__tech">{tech}</span>
               <h3 className="work__title">{title}</h3>
-              <a href={link} className="work__button" target="_blank">
+              <a
+                href={link}
+                className="work__button"
+                target="_blank"
+                rel="noreferrer"
+              >
                 GitHub
                 <i class="fa-brands fa-github github__img"></i>
               </a>

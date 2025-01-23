@@ -1,6 +1,7 @@
 import Work1 from '../../assets/Island Hopper.png'
 import Work2 from '../../assets/MoodMap.PNG'
-import Work3 from '../../assets/work-3.svg'
+import Work3 from '../../assets/spreadsheet.png'
+import Work4 from '../../assets/bomberman.png'
 
 const Menu = [
   {
@@ -23,6 +24,13 @@ const Menu = [
     title: 'Finance Tracker',
     tech: 'JavaFX, PostgreSQL',
     link: '#portfolio',
+  },
+  {
+    id: 4,
+    image: Work4,
+    title: 'Bomberman',
+    tech: 'Java',
+    link: 'https://github.com/brown-cs15-2022/indy-willimprkBrown.git',
   },
 ]
 

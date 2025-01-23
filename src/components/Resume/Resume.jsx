@@ -5,9 +5,7 @@ import Card from './Card'
 
 const Resume = () => {
   const [items, setItems] = useState(Data)
-  const [category, setCategory] = useState('everything')
   const filterItem = (categoryItem) => {
-    setCategory(categoryItem)
     if (categoryItem !== 'everything') {
       const updatedItems = Data.filter((curElem) => {
         return curElem.category === categoryItem

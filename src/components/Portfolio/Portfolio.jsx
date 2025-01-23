@@ -3,7 +3,7 @@ import Menu from './Menu'
 import './Portfolio.css'
 
 const Portfolio = () => {
-  const [items, setItems] = useState(Menu)
+  const [items] = useState(Menu)
   return (
     <section className="work container section" id="portfolio">
       <h2 className="section__title">Projects</h2>

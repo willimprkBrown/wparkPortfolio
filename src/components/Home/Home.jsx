@@ -14,9 +14,9 @@ const Home = () => {
         <span className="home__education">I'm a Software Engineer</span>
 
         <Socials />
-        <a href="#contact" className="btn">
+        {/* <a href="#contact" className="btn">
           Contact Me
-        </a>
+        </a> */}
         <ScrollDown />
       </div>
 
